@@ -73,6 +73,13 @@
         android:textStyle="bold"
         android:textColor="@color/blue_500"/>
 
+    <ProgressBar
+        android:id="@+id/progressBarSignIn"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/blue_700"
+        android:visibility="gone"/>
     <Button
         android:id="@+id/btnSignInSignIn"
         android:layout_width="match_parent"
