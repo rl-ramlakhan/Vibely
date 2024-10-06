@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hey_there"
+        android:textSize="@dimen/_30ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back_please_use_your_email_naddress_and_password_to_sign_in"
+        android:textSize="@dimen/_10ssp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <EditText
+        android:id="@+id/etTextEmailAddressSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:textCursorDrawable="@null"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email_address"
+        android:textSize="@dimen/_12ssp"
+        android:background="@drawable/rounded_background"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/etTextPasswordSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:textCursorDrawable="@null"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textSize="@dimen/_12ssp"
+        android:background="@drawable/rounded_background"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/tvForgotPasswordSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_500"/>
+
+    <Button
+        android:id="@+id/btnSignInSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/btn_primary"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_yet"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"/>
+
+    <TextView
+        android:id="@+id/tvCreateAccountSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_an_account"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_500"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+
+</LinearLayout>

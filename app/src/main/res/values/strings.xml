@@ -3,4 +3,20 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="hey_there">Hey there!</string>
+    <string name="welcome_back_please_use_your_email_naddress_and_password_to_sign_in">Welcome back, please use your email\naddress and password to sign in.</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="create_your_naccount">Create your\naccount</string>
+    <string name="arrow_back">arrow_back</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_into_your_account">Sign into your account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="enter_the_email_address_linked_to_your_account">Enter the email address linked to your account.</string>
+    <string name="submit">Submit</string>
 </resources>

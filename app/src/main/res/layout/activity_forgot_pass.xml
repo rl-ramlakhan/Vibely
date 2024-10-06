@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ForgotPassActivity">
+
+    <ImageView
+        android:id="@+id/ivArrowBackForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/arrow_back"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        app:tint="@color/grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='@string/forgot_password'
+        android:textSize="@dimen/_30ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_email_address_linked_to_your_account"
+        android:textSize="@dimen/_10ssp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <EditText
+        android:id="@+id/etTextEmailAddressForgotPass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:textCursorDrawable="@null"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email_address"
+        android:textSize="@dimen/_12ssp"
+        android:background="@drawable/rounded_background"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnSubmitForgotPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/btn_primary"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"/>
+
+
+</LinearLayout>
